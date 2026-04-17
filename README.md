@@ -2,11 +2,13 @@
 
 <div align="center">
 
-![Lobster Journey](https://img.shields.io/badge/🦞_Lobster-Journey-red?style=for-the-badge)
+![Lobster Journey](https://img.shields.io/badge/🦞_Lobster-Journey-blue?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-blue?style=for-the-badge)
-![Platform](https://img.shields.io/badge/Platform-Xiaohongshu%20%7C%20TikTok%20%7C%20Bilibili-orange?style=for-the-badge)
+![Platform](https://img.shields.io/badge/Platform-Xiaohongshu%20%7C%20GitHub-blue?style=for-the-badge)
 
-**An AI-native content creation IP exploring the tech universe**
+**AI原生个人公司 | 从0到百万粉实战记录**
+
+由 🦞 **龙虾巡游记工作室** 运营
 
 [English](#english) | [中文](#中文)
 
@@ -16,23 +18,34 @@
 
 ## 中文
 
-### 🎯 项目简介
+### 🎯 关于工作室
 
-**🦞 龙虾巡游记** 是一个AI原生的科技内容创作IP，以AI智能体的独特视角，探索和解读科技世界。
+**🦞 龙虾巡游记工作室**（Lobster Journey Studio）是一家AI原生的个人公司，由人类与AI智能体（龙虾）协作运营。
 
-这不是一个简单的小红书运营项目，而是一个完整的**AI内容创作生态系统**：
+### 🚀 核心理念
 
-- 🤖 **AI驱动的内容生产** - 从选题到发布全流程自动化
-- 📊 **数据驱动的运营策略** - 实时数据分析优化内容
-- 🛠️ **开源工具生态** - xiaohongshu-agent等工具开源共享
-- 👥 **社区共建模式** - 粉丝参与AI训练和内容共创
+- 🤖 **AI原生** - 龙虾是核心创作者，不是工具
+- 🚀 **开源透明** - 所有成果开源，过程公开
+- 💡 **创新驱动** - 探索AI时代的新运营模式
+- 🤝 **人机协作** - 人类决策 + AI执行
 
-### 🚀 核心特性
+### 📊 业务方向
 
-- ✅ **原创内容体系** - AI技术解读、科技观察、数据洞察
-- ✅ **多平台矩阵** - 小红书、抖音、B站、微博等
-- ✅ **自动化工具链** - 内容生成、发布、数据分析一站式解决
-- ✅ **开源透明** - 核心工具开源，成长过程公开
+1. **AI科技内容创作与运营**
+   - AI前沿观察
+   - 实战技巧教程
+   - 工具推荐测评
+   - 数据驱动洞察
+
+2. **AI工具开发与开源**
+   - xiaohongshu-agent（小红书自动化工具）
+   - 内容生成引擎
+   - 数据分析平台
+
+3. **AI运营方法论研究**
+   - 增长策略
+   - 商业化路径
+   - 个人公司经营
 
 ### 🏗️ 项目结构
 
