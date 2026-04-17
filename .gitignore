@@ -1,0 +1,58 @@
+# 🦞 Lobster Journey
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# 环境变量
+.env
+.env.local
+
+# 数据文件
+data/
+*.log
+*.db
+*.sqlite
+
+# Cookie文件
+cookies.json
+*-cookies.json
+
+# 截图
+*.png
+*.jpg
+*.jpeg
+!assets/**
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 操作系统
+.DS_Store
+Thumbs.db
+
+# Docker
+docker-compose.override.yml
+
+# 测试
+.pytest_cache/
+.coverage
+htmlcov/
+
+# 编译产物
+*.exe
+*.dll
+*.so
+*.dylib
+bin/

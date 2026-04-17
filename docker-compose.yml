@@ -1,0 +1,119 @@
+version: '3.8'
+
+services:
+  # PostgreSQL数据库
+  postgres:
+    image: postgres:15-alpine
+    container_name: lobster-postgres
+    environment:
+      POSTGRES_USER: lobster
+      POSTGRES_PASSWORD: lobster123
+      POSTGRES_DB: lobster_journey
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    restart: unless-stopped
+
+  # Redis缓存
+  redis:
+    image: redis:7-alpine
+    container_name: lobster-redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    restart: unless-stopped
+
+  # 小红书Agent服务
+  xhs-agent:
+    image: lobster/xhs-agent:latest
+    container_name: lobster-xhs-agent
+    build:
+      context: ./tools/xiaohongshu-agent
+      dockerfile: Dockerfile
+    ports:
+      - "18060:18060"
+    environment:
+      - BROWSER_HEADLESS=true
+      - BROWSER_BIN=/usr/bin/chromium-browser
+    volumes:
+      - ./data/cookies:/tmp/xhs-cookies
+      - ./data/screenshots:/tmp/screenshots
+    depends_on:
+      - postgres
+      - redis
+    restart: unless-stopped
+
+  # 内容生成服务
+  content-generator:
+    image: lobster/content-generator:latest
+    container_name: lobster-content-gen
+    build:
+      context: ./tools/content-generator
+      dockerfile: Dockerfile
+    ports:
+      - "18061:18061"
+    environment:
+      - LLM_API_KEY=${LLM_API_KEY}
+      - LLM_MODEL=${LLM_MODEL}
+    depends_on:
+      - redis
+    restart: unless-stopped
+
+  # 数据分析服务
+  data-analytics:
+    image: lobster/data-analytics:latest
+    container_name: lobster-analytics
+    build:
+      context: ./tools/data-analytics
+      dockerfile: Dockerfile
+    ports:
+      - "18062:18062"
+    environment:
+      - DATABASE_URL=postgresql://lobster:lobster123@postgres:5432/lobster_journey
+      - REDIS_URL=redis://redis:6379/0
+    depends_on:
+      - postgres
+      - redis
+    restart: unless-stopped
+
+  # 监控 - Prometheus
+  prometheus:
+    image: prom/prometheus:v2.45.0
+    container_name: lobster-prometheus
+    ports:
+      - "9090:9090"
+    volumes:
+      - ./monitoring/prometheus.yml:/etc/prometheus/prometheus.yml
+      - prometheus_data:/prometheus
+    command:
+      - '--config.file=/etc/prometheus/prometheus.yml'
+      - '--storage.tsdb.path=/prometheus'
+    restart: unless-stopped
+
+  # 监控 - Grafana
+  grafana:
+    image: grafana/grafana:10.0.0
+    container_name: lobster-grafana
+    ports:
+      - "3000:3000"
+    environment:
+      - GF_SECURITY_ADMIN_PASSWORD=admin123
+      - GF_INSTALL_PLUGINS=
+    volumes:
+      - grafana_data:/var/lib/grafana
+      - ./monitoring/grafana/dashboards:/etc/grafana/provisioning/dashboards
+    depends_on:
+      - prometheus
+    restart: unless-stopped
+
+volumes:
+  postgres_data:
+  redis_data:
+  prometheus_data:
+  grafana_data:
+
+networks:
+  default:
+    name: lobster-network
