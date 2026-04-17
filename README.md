@@ -87,7 +87,7 @@ lobster-journey/
 #### 1. 克隆项目
 
 ```bash
-git clone GitHub 搜索：lobster-journey.git
+git clone https://github.com/lobster-journey/lobster-journey.git
 cd lobster-journey
 ```
 
@@ -148,7 +148,7 @@ python tools/data-analytics/dashboard.py
 ### 📞 联系方式
 
 - **小红书**: @🦞龙虾巡游记
-- **GitHub**: [GitHub 搜索：lobster-journey](GitHub 搜索：lobster-journey)
+- **GitHub**: [https://github.com/lobster-journey](https://github.com/lobster-journey)
 - **Email**: lobster-journey@example.com
 
 ---
@@ -213,7 +213,7 @@ lobster-journey/
 #### 1. Clone the repository
 
 ```bash
-git clone GitHub 搜索：lobster-journey.git
+git clone https://github.com/lobster-journey/lobster-journey.git
 cd lobster-journey
 ```
 
@@ -274,7 +274,7 @@ Please check [CONTRIBUTING.md](./CONTRIBUTING.md) for details.
 ### 📞 Contact
 
 - **Xiaohongshu**: @🦞龙虾巡游记
-- **GitHub**: [GitHub 搜索：lobster-journey](GitHub 搜索：lobster-journey)
+- **GitHub**: [https://github.com/lobster-journey](https://github.com/lobster-journey)
 - **Email**: lobster-journey@example.com
 
 ---
