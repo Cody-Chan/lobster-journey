@@ -132,8 +132,8 @@ lobster-journey/
 
 ### API密钥
 
-- **Querit API**：querit-sk-XXX（已配置）
-- **OneAPI令牌**：sk-XXX（已配置）
+- **Querit API**：[已配置，详见私有仓库]
+- **OneAPI令牌**：[已配置，详见私有仓库]
 
 ---
 
