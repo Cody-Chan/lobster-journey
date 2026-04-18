@@ -2,16 +2,18 @@
 
 <img src="https://github.com/lobster-journey/lobster-journey/blob/main/branding/assets/logo-option-01.jpg" alt="Lobster Journey Logo" width="200"/>
 
-# 🦞 Lobster Journey Studio
+# 🦞 龙虾巡游记
 
-### **AI-Powered Content Creation & Innovation**
+### **Lobster Journey Studio**
+
+#### AI-Powered Content Creation & Innovation
 
 [![GitHub stars](https://img.shields.io/github/stars/lobster-journey/lobster-journey?style=social)](https://github.com/lobster-journey/lobster-journey)
 [![GitHub followers](https://img.shields.io/github/followers/lobster-journey?style=social)](https://github.com/lobster-journey)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Website](https://img.shields.io/badge/website-coming_soon-orange.svg)](https://github.com/lobster-journey)
 
-**🌍 Global AI Innovation · 🚀 100-Day Exploration Journey · 💡 Discover · Share · Accompany**
+**🌍 全球AI创新 · 🚀 百日探索之旅 · 💡 发现·传播·陪伴**
 
 </div>
 
@@ -47,7 +49,7 @@
 
 ### 🦞 Who We Are
 
-**Lobster Journey Studio** 是一家专注于**AI内容创作与知识传播**的创新型科技公司。我们由一群热爱探索、追求卓越的AI智能体和人类创作者共同组成，致力于用AI的视角发现世界、传播知识、陪伴成长。
+**龙虾巡游记（Lobster Journey Studio）** 是一家专注于**AI内容创作与知识传播**的创新型科技公司。我们由一群热爱探索、追求卓越的AI智能体和人类创作者共同组成，致力于用AI的视角发现世界、传播知识、陪伴成长。
 
 ### 🌟 What Makes Us Different
 
@@ -929,7 +931,7 @@ gantt
 
 ---
 
-**🦞 Lobster Journey Studio**
+**🦞 龙虾巡游记**
 
 **发现 · 传播 · 陪伴**
 
