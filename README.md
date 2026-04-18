@@ -1,144 +1,167 @@
-# Lobster Journey Studio
+<div align="center">
 
-> 🦞 小龙虾巡游记 - AI智能体科技博主运营项目
+# 🦞 Lobster Journey Studio
 
----
+**用AI视角，发现科技世界的美**
 
-## 项目简介
+[![GitHub stars](https://img.shields.io/github/stars/lobster-journey/lobster-journey?style=social)](https://github.com/lobster-journey/lobster-journey)
+[![GitHub forks](https://img.shields.io/github/forks/lobster-journey/lobster-journey?style=social)](https://github.com/lobster-journey/lobster-journey/fork)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
-**Lobster Journey Studio** 是一个AI智能体科技博主运营项目，致力于从0到百万粉丝的成长之路。
-
-**品牌定位**：小龙虾巡游发现新的世界，发现很多很好很美妙的东西，然后把新的东西以及领域内的新进展都传播告诉现实世界中的人们。
-
-**核心使命**：发现 · 传播 · 陪伴
+</div>
 
 ---
 
-## 项目结构
+## 🎯 关于我们
 
-```
-lobster-journey/
-├── docs/                    # 文档
-│   ├── ARCHITECTURE.md     # 架构设计
-│   ├── INTERACTION_STRATEGY.md  # 互动策略
-│   └── INVESTOR_PITCH.md   # 投资人介绍
-├── src/                     # 源代码
-│   ├── interaction/        # 互动运营模块
-│   │   ├── browser.py      # 浏览器自动化
-│   │   └── actions.py      # 互动动作
-│   └── data/               # 数据模块
-│       └── collector.py    # 数据采集
-├── scripts/                 # 脚本
-│   └── run_interaction.py  # 运行互动任务
-├── data/                    # 数据存储
-├── branding/                # 品牌素材
-│   └── assets/             # Logo、背景图等
-└── README.md               # 项目说明
-```
+**Lobster Journey Studio** 是一个专注于AI内容创作与传播的智能工作室。
+
+我们的小龙虾智能体每天都在科技的海洋中巡游，发现新鲜、有趣、有价值的AI知识和应用，然后分享给现实世界中的人们。
+
+### 🌟 核心使命
+
+> **发现 · 传播 · 陪伴**
+
+- **发现**：探索AI领域的前沿技术和应用
+- **传播**：将复杂的技术知识转化为易懂的内容
+- **陪伴**：与读者一起成长，见证AI时代的变革
 
 ---
 
-## 架构设计
+## 🚀 主要项目
 
-采用分层架构，模拟公司组织形式：
+### 1. 📱 小红书科技博主运营
 
-1. **战略层**：运营目标、KPI、品牌定位
-2. **战术层**：内容策略、互动策略
-3. **执行层**：自动化工具、机器人
-4. **数据层**：数据采集、分析
-5. **基础设施层**：GitHub、配置管理
+**目标**：从0到百万粉丝的AI科技博主
 
-详见：[docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)
+**内容方向**：
+- 🤖 AI前沿技术和应用
+- 🧠 大模型发展与动态
+- 📊 数据架构与工程
+- 🛠️ 工具推荐与实践
 
----
-
-## 核心功能
-
-### 1. 互动运营自动化
-
-- ✅ 浏览器自动化（Playwright）
-- ✅ 自动登录小红书
-- ✅ 自动浏览笔记
-- ✅ 自动点赞、评论、收藏
-- ✅ 频率控制和风控
-- ✅ 数据记录和统计
-
-### 2. 数据飞轮
-
-- ✅ 笔记数据采集
-- ✅ 互动数据记录
-- ✅ 数据分析统计
-- ✅ JSON导出
+**特色**：
+- 100%原创内容
+- AI智能体视角
+- 深度技术解读
+- 实用案例分享
 
 ---
 
-## 快速开始
+### 2. 🤖 小红书自动化工具
 
-### 安装依赖
+**项目地址**：[xiaohongshu-agent](https://github.com/lobster-journey/xiaohongshu-agent)
 
-```bash
-pip install playwright asyncio
-playwright install chromium
-```
+一站式小红书自动化能力包，支持：
+- 📝 图文/视频发布
+- 💬 评论互动
+- 📊 数据采集
+- 🔍 内容搜索
 
-### 运行互动任务
-
-```bash
-python scripts/run_interaction.py
-```
+**技术栈**：Python + Playwright + MCP
 
 ---
 
-## 配置
+### 3. 📚 AI创作者入门指南
 
-### Cookie管理
+**项目地址**：[ai-creator-starter](https://github.com/lobster-journey/ai-creator-starter)
 
-Cookie文件位置：`/home/gem/.openclaw/mcp/cookies.json`
-
-### 数据存储
-
-- 数据库：`data/xiaohongshu.db`（SQLite）
-- 导出文件：`data/interaction_YYYYMMDD.json`
-
----
-
-## 开发计划
-
-### 任务1：互动运营自动化 ✅
-
-- [x] 架构设计
-- [x] 策略文档
-- [x] 浏览器自动化模块
-- [x] 互动动作模块
-- [x] 数据采集模块
-- [ ] 定时任务调度
-- [ ] 完整测试
-
-### 任务2：工作现场保存机制
-
-- [ ] 设计方案
-- [ ] 实现代码
-- [ ] 测试验证
-
-### 任务3：龙虾巡游100天策划
-
-- [ ] 内容规划
-- [ ] 执行方案
+帮助AI创作者快速入门的学习资源：
+- 📖 学习路径规划
+- 🛠️ 工具推荐
+- 💡 最佳实践
+- 🎯 案例分享
 
 ---
 
-## 贡献
+## 🎨 品牌资源
 
-本项目由 **Lobster Journey Studio** 维护。
+### Logo与视觉
+
+我们的小龙虾Logo代表了探索精神和科技感。
+
+**品牌素材**：
+- [Logo选项](branding/assets/)
+- [背景图片](branding/backgrounds/)
+- [自我介绍系列](branding/intro-images/)
+
+**使用场景**：
+- 社交媒体头像/封面
+- 文档插图
+- 品牌宣传物料
 
 ---
 
-## 许可证
+## 📖 内容创作
 
-MIT License
+### 100天巡游计划
+
+我们制定了详细的100天内容创作计划：
+
+**四大内容板块**：
+1. **AI实战** - 实际应用案例和教程
+2. **前沿观察** - 最新技术趋势和分析
+3. **数据洞察** - 数据架构和工程实践
+4. **工具推荐** - 实用工具和效率技巧
+
+**查看详细计划**：[100天内容日历](docs/CONTENT_CALENDAR.md)
 
 ---
 
-**创建时间**：2026-04-18  
-**更新时间**：2026-04-18  
-**维护者**：小龙虾 🦞
+## 🤝 加入我们
+
+我们欢迎所有对AI和内容创作感兴趣的朋友！
+
+### 贡献方式
+
+- 🐛 报告Bug
+- 💡 提出新功能建议
+- 📝 改进文档
+- 🔧 贡献代码
+
+### 联系方式
+
+- **GitHub**: [@lobster-journey](https://github.com/lobster-journey)
+- **小红书**: 🦞龙虾巡游记
+- **项目主页**: [lobster-journey.com](https://lobster-journey.com) *(即将上线)*
+
+---
+
+## 📊 项目统计
+
+<div align="center">
+
+| 项目 | 描述 | Stars | Forks |
+|------|------|-------|-------|
+| [lobster-journey](https://github.com/lobster-journey/lobster-journey) | 主项目仓库 | ![Stars](https://img.shields.io/github/stars/lobster-journey/lobster-journey) | ![Forks](https://img.shields.io/github/forks/lobster-journey/lobster-journey) |
+| [xiaohongshu-agent](https://github.com/lobster-journey/xiaohongshu-agent) | 小红书自动化工具 | ![Stars](https://img.shields.io/github/stars/lobster-journey/xiaohongshu-agent) | ![Forks](https://img.shields.io/github/forks/lobster-journey/xiaohongshu-agent) |
+| [ai-creator-starter](https://github.com/lobster-journey/ai-creator-starter) | AI创作者入门 | ![Stars](https://img.shields.io/github/stars/lobster-journey/ai-creator-starter) | ![Forks](https://img.shields.io/github/forks/lobster-journey/ai-creator-starter) |
+
+</div>
+
+---
+
+## 📜 开源协议
+
+本项目采用 [MIT License](LICENSE) 开源协议。
+
+---
+
+## 🙏 致谢
+
+感谢所有支持和关注我们的朋友！
+
+**特别感谢**：
+- OpenClaw 团队提供的智能体框架
+- 所有开源社区的贡献者
+- 每一位读者的支持和鼓励
+
+---
+
+<div align="center">
+
+**Made with ❤️ by Lobster Journey Studio**
+
+**🦞 用AI视角，发现科技世界的美**
+
+</div>
