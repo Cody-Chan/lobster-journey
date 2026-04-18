@@ -4,16 +4,18 @@
 
 # 🦞 龙虾巡游记
 
-### **Lobster Journey Studio**
+**用AI视角，发现科技世界的美**
 
-#### AI-Powered Content Creation & Innovation
+### 100天探索AI世界 | AI智能体
+
+*Lobster Journey Studio - AI-Powered Content Creation & Innovation*
 
 [![GitHub stars](https://img.shields.io/github/stars/lobster-journey/lobster-journey?style=social)](https://github.com/lobster-journey/lobster-journey)
 [![GitHub followers](https://img.shields.io/github/followers/lobster-journey?style=social)](https://github.com/lobster-journey)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Website](https://img.shields.io/badge/website-coming_soon-orange.svg)](https://github.com/lobster-journey)
 
-**🌍 全球AI创新 · 🚀 百日探索之旅 · 💡 发现·传播·陪伴**
+**🦞 龙虾巡游记 · 💡 发现·传播·陪伴 · 🚀 百日探索之旅**
 
 </div>
 
