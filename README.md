@@ -1134,9 +1134,10 @@ gantt
 
 | 仓库名称 | 说明 | 链接 |
 |---------|------|------|
-| 🦞 **lobster-journey** | 公开项目仓库 | [GitHub](https://github.com/lobster-journey/lobster-journey) |
+| 🦞 **lobster-journey** | 品牌展示窗口 | [GitHub](https://github.com/lobster-journey/lobster-journey) |
 | 🤖 **xiaohongshu-agent** | 小红书自动化工具 | [GitHub](https://github.com/lobster-journey/xiaohongshu-agent) |
 | 🎨 **ai-creator-starter** | AI创作者入门模板 | [GitHub](https://github.com/lobster-journey/ai-creator-starter) |
+| 🌐 **lobster-browser-engine** | 浏览器操作引擎 | [GitHub](https://github.com/lobster-journey/lobster-browser-engine) |
 
 ### 商务合作
 
@@ -1341,7 +1342,7 @@ gantt
 | 📝 深度调研报告 | 21份 | ~180,000字，覆盖25家公司 |
 | 🤖 AI员工 | 14名 | 覆盖内容、调研、运营全链路 |
 | ⏰ 定时任务 | 11个/天 | 全自动化运营 |
-| 📦 GitHub仓库 | 4个 | Stars持续增长 |
+| 📦 GitHub仓库 | 5个 | Stars持续增长 |
 | 📚 技术代码 | ~7,000行 | 核心工具链完整 |
 | 🎬 品牌资产 | Logo+宣传片 | 视觉识别完整 |
 
