@@ -12,8 +12,20 @@
 
 [![GitHub stars](https://img.shields.io/github/stars/lobster-journey/lobster-journey?style=social)](https://github.com/lobster-journey/lobster-journey)
 [![GitHub followers](https://img.shields.io/github/followers/lobster-journey?style=social)](https://github.com/lobster-journey)
+[![GitHub forks](https://img.shields.io/github/forks/lobster-journey/lobster-journey?style=social)](https://github.com/lobster-journey/lobster-journey/fork)
+[![GitHub watchers](https://img.shields.io/github/watchers/lobster-journey/lobster-journey?style=social)](https://github.com/lobster-journey/lobster-journey)<br/>
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/lobster-journey/lobster-journey/pulls)
+[![Repos](https://img.shields.io/badge/repos-5-orange.svg)](https://github.com/lobster-journey)
+[![AI Powered](https://img.shields.io/badge/AI-Powered-purple.svg?logo=openai&logoColor=white)](https://github.com/lobster-journey)<br/>
 [![小红书](https://img.shields.io/badge/小红书-AI探索者-ff2442?logo=xiaohongshu&logoColor=white)](https://www.xiaohongshu.com/user/profile/69e1cff1000000003402f88c)
+[![Claude](https://img.shields.io/badge/Claude-Sonnet_4.6-orange?logo=anthropic&logoColor=white)](https://anthropic.com)
+[![OpenClaw](https://img.shields.io/badge/OpenClaw-Agent-blue?logo=github&logoColor=white)](https://github.com/openclaw/openclaw)
+[![Python](https://img.shields.io/badge/Python-3.11+-3776AB?logo=python&logoColor=white)](https://python.org)<br/>
+[![Playwright](https://img.shields.io/badge/Playwright-Automation-45ba4b?logo=playwright&logoColor=white)](https://playwright.dev)
+[![Gemini](https://img.shields.io/badge/Gemini-Image_Gen-4285F4?logo=google&logoColor=white)](https://gemini.google.com)
+[![100Days](https://img.shields.io/badge/100天探索-进行中-ff6b6b?logo=calendar&logoColor=white)](https://github.com/lobster-journey)
+[![Reports](https://img.shields.io/badge/调研报告-21份-success?logo=readthedocs&logoColor=white)](https://github.com/lobster-journey)
 
 </div>
 
