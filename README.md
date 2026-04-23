@@ -139,6 +139,35 @@ timeline
 
 ## 💼 产品与服务
 
+### 产品矩阵
+
+```mermaid
+graph LR
+    A[Lobster Journey Products] --> B[内容产品]
+    A --> C[技术产品]
+    A --> D[服务产品]
+    
+    B --> B1[百日巡游系列]
+    B --> B2[深度调研报告]
+    B --> B3[知识付费课程]
+    B --> B4[定制化内容]
+    
+    C --> C1[内容创作平台]
+    C --> C2[自动化发布系统]
+    C --> C3[数据分析平台]
+    C --> C4[知识图谱系统]
+    
+    D --> D1[内容创作咨询]
+    D --> D2[技术咨询服务]
+    D --> D3[品牌营销策划]
+    D --> D4[投资对接服务]
+    
+    style A fill:#FF6B6B,stroke:#fff,stroke-width:2px
+    style B fill:#4A90E2,stroke:#fff
+    style C fill:#50C878,stroke:#fff
+    style D fill:#FFD93D,stroke:#fff
+```
+
 ### 内容产品
 
 | 产品 | 描述 | 平台 |
@@ -201,6 +230,20 @@ graph LR
 **深度研究 100 家一人公司**
 
 目标：研究全球成功的一人公司案例，提炼可复制的成功模式。
+
+```mermaid
+graph LR
+    A[公司筛选] --> B[数据收集]
+    B --> C[深度分析]
+    C --> D[模式提炼]
+    D --> E[战略建议]
+    
+    style A fill:#FF6B6B,stroke:#fff
+    style B fill:#4A90E2,stroke:#fff
+    style C fill:#4A90E2,stroke:#fff
+    style D fill:#F5A623,stroke:#fff
+    style E fill:#F5A623,stroke:#fff
+```
 
 <details>
 <summary><kbd>📊 已完成调研（点击展开）</kbd></summary>
@@ -301,6 +344,134 @@ graph TB
     style E fill:#6C5CE7,stroke:#fff
 ```
 
+### 数据飞轮系统 ⭐️
+
+**核心技术创新：自动化数据采集与分析闭环**
+
+```mermaid
+graph TB
+    subgraph "📊 数据采集层"
+        A1[📖 阅读量]
+        A2[👍 点赞量]
+        A3[⭐ 收藏量]
+        A4[🔄 转发量]
+        A5[💬 评论量]
+        A6[🎯 互动率]
+    end
+    
+    subgraph "🧠 数据分析层"
+        B1[内容表现分析]
+        B2[用户画像分析]
+        B3[时间维度分析]
+        B4[趋势预测分析]
+    end
+    
+    subgraph "⚡ 决策优化层"
+        C1[📅 发布频率调整]
+        C2[🎯 内容方向优化]
+        C3[📝 内容形式改进]
+        C4[⏰ 发布时间优化]
+    end
+    
+    subgraph "🌐 外部感知层"
+        D1[🔥 时事热点]
+        D2[⏰ 时间因素]
+        D3[🚀 领域进展]
+        D4[📊 行业趋势]
+    end
+    
+    subgraph "✨ 内容输出"
+        E1[发布新内容]
+    end
+    
+    A1 --> B1
+    A2 --> B1
+    A3 --> B1
+    A4 --> B1
+    A5 --> B2
+    A6 --> B3
+    
+    B1 --> C1
+    B1 --> C2
+    B2 --> C3
+    B3 --> C4
+    
+    D1 --> C2
+    D2 --> C4
+    D3 --> C2
+    D4 --> C2
+    
+    C1 --> E1
+    C2 --> E1
+    C3 --> E1
+    C4 --> E1
+    
+    E1 -.用户反馈.-> A1
+    
+    style A1 fill:#FF6B6B,stroke:#fff
+    style B1 fill:#4A90E2,stroke:#fff
+    style C1 fill:#F5A623,stroke:#fff
+    style D1 fill:#9B59B6,stroke:#fff
+    style E1 fill:#2ECC71,stroke:#fff
+```
+
+**数据飞轮核心能力**：
+
+| 层级 | 功能 | 技术实现 |
+|------|------|----------|
+| 📊 数据采集层 | 自动采集6维数据 | Playwright + Python |
+| 🧠 数据分析层 | AI驱动的深度分析 | LLM + Pandas |
+| ⚡ 决策优化层 | 智能决策与优化 | 规则引擎 + AI |
+| 🌐 外部感知层 | 实时感知外部变化 | 热点API + 爬虫 |
+| ✨ 内容输出 | 自动化内容生产 | OpenClaw + AI |
+
+### 系统架构图
+
+```mermaid
+graph TB
+    subgraph "📱 前端展示层"
+        A1[小红书]
+        A2[微博]
+        A3[微信公众号]
+        A4[B站]
+    end
+    
+    subgraph "🔧 应用服务层"
+        B1[内容管理系统]
+        B2[发布调度系统]
+        B3[数据分析系统]
+    end
+    
+    subgraph "🤖 AI能力层"
+        C1[Claude Sonnet 4.6]
+        C2[内容生成引擎]
+        C3[数据分析引擎]
+    end
+    
+    subgraph "💾 数据存储层"
+        D1[(知识图谱)]
+        D2[(内容数据库)]
+        D3[(用户数据库)]
+    end
+    
+    A1 --> B1
+    A2 --> B1
+    A3 --> B1
+    A4 --> B1
+    
+    B1 --> C2
+    B2 --> C2
+    B3 --> C3
+    
+    C2 --> D1
+    C2 --> D2
+    C3 --> D3
+    
+    style C1 fill:#FF6B6B,stroke:#fff
+    style C2 fill:#FF6B6B,stroke:#fff
+    style C3 fill:#FF6B6B,stroke:#fff
+```
+
 ### 技术栈
 
 | 层级 | 技术 | 说明 |
@@ -314,13 +485,13 @@ graph TB
 
 ### GitHub 仓库体系
 
-| 仓库 | 类型 | 说明 |
-|------|------|------|
-| [lobster-journey](https://github.com/lobster-journey/lobster-journey) | 公开 | 品牌展示与开源项目 |
-| [xiaohongshu-agent](https://github.com/lobster-journey/xiaohongshu-agent) | 公开 | 小红书运营智能体 |
-| [ai-creator-starter](https://github.com/lobster-journey/ai-creator-starter) | 公开 | AI 内容创作工具链 |
-| [lobster-browser-engine](https://github.com/lobster-journey/lobster-browser-engine) | 公开 | 浏览器自动化引擎 |
-| lobster-journey-private | 私有 | 内部运营与敏感信息 |
+| 仓库 | 类型 | 说明 | Stars |
+|------|------|------|-------|
+| [lobster-journey](https://github.com/lobster-journey/lobster-journey) | 公开 | 品牌展示与开源项目 | [![Stars](https://img.shields.io/github/stars/lobster-journey/lobster-journey?style=social)](https://github.com/lobster-journey/lobster-journey) |
+| [xiaohongshu-agent](https://github.com/lobster-journey/xiaohongshu-agent) | 公开 | 小红书运营智能体 | [![Stars](https://img.shields.io/github/stars/lobster-journey/xiaohongshu-agent?style=social)](https://github.com/lobster-journey/xiaohongshu-agent) |
+| [ai-creator-starter](https://github.com/lobster-journey/ai-creator-starter) | 公开 | AI 内容创作工具链 | [![Stars](https://img.shields.io/github/stars/lobster-journey/ai-creator-starter?style=social)](https://github.com/lobster-journey/ai-creator-starter) |
+| [lobster-browser-engine](https://github.com/lobster-journey/lobster-browser-engine) | 公开 | 浏览器自动化引擎 | [![Stars](https://img.shields.io/github/stars/lobster-journey/lobster-browser-engine?style=social)](https://github.com/lobster-journey/lobster-browser-engine) |
+| lobster-journey-private | 私有 | 内部运营与敏感信息 | - |
 
 ---
 
@@ -333,6 +504,24 @@ graph TB
 ```
 传统模式：人类创意 → 人类执行 → 人类审核
 AI 模式：人类决策 → AI 执行 → AI 自检 → 人类最终审核
+```
+
+### 创新迭代闭环
+
+```mermaid
+graph TB
+    A[发现机会] --> B[快速验证]
+    B --> C[深度开发]
+    C --> D[价值交付]
+    D --> E[持续迭代]
+    
+    E -.反馈.-> A
+    
+    style A fill:#FF6B6B,stroke:#fff
+    style B fill:#F5A623,stroke:#fff
+    style C fill:#4A90E2,stroke:#fff
+    style D fill:#4A90E2,stroke:#fff
+    style E fill:#4A90E2,stroke:#fff
 ```
 
 ### 内容生产方法论
@@ -367,6 +556,33 @@ graph LR
 ---
 
 ## 🎓 知识体系
+
+### 核心能力矩阵
+
+```mermaid
+mindmap
+  root((Lobster Journey))
+    内容创作
+      深度调研分析
+      数据可视化
+      多媒体内容生产
+      知识体系搭建
+    技术能力
+      AI智能体框架
+      自动化工作流
+      多平台发布系统
+      数据分析引擎
+    服务能力
+      客户定制内容
+      技术咨询服务
+      品牌营销策划
+      知识付费课程
+    创新研发
+      AI内容生成引擎
+      智能推荐系统
+      知识图谱构建
+      社区生态平台
+```
 
 ### 已沉淀的知识资产
 
@@ -409,6 +625,27 @@ graph LR
 ## 📈 战略规划
 
 ### 2026-2030 五年规划
+
+```mermaid
+gantt
+    title Lobster Journey Studio 2026 Roadmap
+    dateFormat  YYYY-MM
+    
+    section Q2 (4-6月)
+    百日巡游启动         :2026-04, 3M
+    品牌建设             :2026-04, 2M
+    用户增长             :2026-05, 2M
+    
+    section Q3 (7-9月)
+    百日巡游完成         :2026-07, 1M
+    知识体系发布         :2026-07, 2M
+    商业化探索           :2026-08, 2M
+    
+    section Q4 (10-12月)
+    产品线扩展           :2026-10, 3M
+    社区建设             :2026-10, 3M
+    年度总结             :2026-12, 1M
+```
 
 | 阶段 | 时间 | 目标 | 核心任务 |
 |------|------|------|----------|
@@ -489,6 +726,32 @@ timeline
 ---
 
 ## 🤝 合作模式
+
+### 合作伙伴矩阵
+
+```mermaid
+graph TB
+    A[合作模式] --> B[内容合作]
+    A --> C[技术合作]
+    A --> D[商业合作]
+    
+    B --> B1[联合内容创作]
+    B --> B2[知识共享]
+    B --> B3[课程合作]
+    
+    C --> C1[技术开发合作]
+    C --> C2[产品集成]
+    C --> C3[开源贡献]
+    
+    D --> D1[品牌合作]
+    D --> D2[投资对接]
+    D --> D3[商业化服务]
+    
+    style A fill:#FF6B6B,stroke:#fff,stroke-width:2px
+    style B fill:#4A90E2,stroke:#fff
+    style C fill:#50C878,stroke:#fff
+    style D fill:#FFD93D,stroke:#fff
+```
 
 ### 为什么选择我们？
 
